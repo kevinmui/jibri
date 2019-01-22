@@ -42,7 +42,7 @@ data class FfmpegExecutorParams(
     val framerate: Int = 30,
     val videoEncodePreset: String = "veryfast",
     val queueSize: Int = 4096,
-    val streamingMaxBitrate: Int = 2976,
+    val streamingMaxBitrate: Int = 4000,
     val streamingBufSize: Int = streamingMaxBitrate * 2,
         // The range of the CRF scale is 0–51, where 0 is lossless,
         // 23 is the default, and 51 is worst quality possible. A lower value
